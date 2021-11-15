@@ -1,0 +1,50 @@
+{
+  "name": "fkit",
+  "version": "1.0.0",
+  "description": "Fkit (Front-end kit) based on webpack. Build HTML pages quickly and easily.",
+  "private": true,
+  "browserslist": [
+    "> 1%",
+    "last 3 versions"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": "Ulugbek Nuriddinov <info@ucoder.pro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ucoline/fkit/issues"
+  },
+  "homepage": "https://github.com/ucoline/fkit#readme",
+  "repository": "https://github.com/ucoline/fkit.git",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.1.0",
+    "css-loader": "^5.0.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "fkit-core": "^1.0.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.2.0",
+    "html-loader": "^3.0.1",
+    "html-minifier": "^4.0.0",
+    "import-glob-loader": "^1.1.0",
+    "js-beautify": "^1.14.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^4.1.0",
+    "postcss-pxtorem": "^5.1.1",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
