@@ -1,5 +1,8 @@
 # Fkit (Front-end kit)
 
+[![webpack][webpack]][webpack-url]
+[![node][node]][node-url]
+
 Fkit (Front-end kit) was created to build HTML pages quickly and easily. The goal is to code the pages without duplicates and with a templating engine.
 
 📦 Powerful webpack packages.
@@ -35,3 +38,9 @@ The build is minified and the filenames include the hashes.
 ## Learn More
 
 You can learn more in the [documentation](https://github.com/ucoline/fkit/wiki).
+
+[webpack]: https://img.shields.io/npm/v/webpack.svg
+[webpack-url]: https://npmjs.com/package/webpack
+
+[node]: https://img.shields.io/node/v/html-webpack-plugin.svg
+[node-url]: https://nodejs.org
